@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="row">
+        <h6 class="header-text">New Driver Addition</h6>
+        <div class="range">
+            <input type="range" id="cowbell" name="cowbell" 
+            min="0" max="100" [value]="rangeValue" step="10" class="range-control">
+        </div>
+    </div>
+
+    <div class="row radio-content">
+        <div class="col-md-4 form-check">
+            <input class="form-check-input" type="radio" name="newDriverEddition" id="newDriverEddition1" [checked]="checkToggleValue == 'basic'" (click)="getToggleValues('basic-info')">
+            <label class="form-check-label" for="newDriverEddition1">
+              Basic Information
+            </label>
+        </div>
+        
+        <div class="col-md-4 form-check">
+            <input class="form-check-input" type="radio" name="newDriverEddition" id="newDriverEddition2" [checked]="checkToggleValue == 'pay'" (click)="getToggleValues('pay-info')">
+            <label class="form-check-label" for="newDriverEddition2">
+              Pay - Information 
+            </label>
+        </div>
+        
+        <div class="col-md-4 form-check">
+            <input class="form-check-input" type="radio" name="newDriverEddition" id="newDriverEddition3" [checked]="checkToggleValue == 'app'" (click)="getToggleValues('create-app')">
+            <label class="form-check-label mr-3" for="newDriverEddition2">
+              Create App Login
+            </label>
+        </div>
+</div>
+</div>

@@ -1,0 +1,31 @@
+.main-content {
+    margin: 0 !important;
+    padding:  0 !important;
+}
+
+.pre-next-render {
+    float: right;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 7rem;
+}
+
+.fa, .fas{
+    font-size: 15px;
+    -webkit-text-stroke: 0px white;
+    -webkit-text-stroke-width: 0%
+}
+
+.breadcrumb {
+    color: #7952b3;   
+}
+
+.component-render {
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+    width: 100% !important;
+}

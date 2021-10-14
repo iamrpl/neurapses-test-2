@@ -1,0 +1,38 @@
+.main-content {
+    margin : 1rem
+}
+
+input, select {
+    border: 1px solid skyblue
+}
+
+button {
+    width: 7rem;
+}
+
+.form-control-email {
+border: 1px solid rgb(248, 73, 73);
+}
+
+.form-control-company {
+    border: 1px solid rgb(99, 253, 99);
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.btn-reset:hover {
+    background-color: white;
+    color: rgb(155, 1, 1);
+}

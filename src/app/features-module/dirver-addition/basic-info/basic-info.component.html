@@ -1,0 +1,199 @@
+<div class="main-content">
+    <div class="container-fluid">
+
+        <!-- information form starts here -->
+        <form [formGroup]="basicInfoForm">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="name">Name </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Driver Name" formControlName="name">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="company-name">Company Name </label> <br>
+                        <input type="text" class="form-control form-control-company" placeholder="Type Company Name" formControlName="companyname">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="role">Role </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Role" formControlName="role">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="cell-no">Cell Phone </label> <br>
+                        <input type="text" class="form-control" placeholder="Driver Cell Phone Number" formControlName="cellphone">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="email">Email Address </label> <br>
+                        <input type="text" class="form-control form-control-email" placeholder="Driver Email Address" formControlName="email">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="address-one">Address Line 1 </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Address 1" formControlName="addressone">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="address-two">Address Line 2 </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Address 2" formControlName="addresstwo">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="country">Country </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Country" formControlName="country">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="postal-code">Postal Code </label> <br>
+                        <input type="text" class="form-control" placeholder="Type Postal Code" formControlName="postalcode">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="state">State </label> <br>
+                        <select class="form-select" aria-label="Default select example" formControlName="state">
+                            <option value="select" selected>Select State</option>
+                            <option value="maharashtra">Maharashtra</option>
+                            <option value="assam">Assam</option>
+                            <option value="andhra pradesh">Andhra Pradesh</option>
+                            <option value="arunachal pradesh">Arunachal Pradesh</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="city">City </label> <br>
+                        <select class="form-select" aria-label="Default select example" formControlName="city">
+                            <option value="select" selected>Select City</option>
+                            <option value="ahmednagar">Ahmednagar</option>
+                            <option value="pune">Pune</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="nashik">Nashik</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="dob">DOB </label> <br>
+                        <input type="date" class="form-control" formControlName="dob">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="date-of-hire">Date of Hire </label> <br>
+                        <input type="date" class="form-control" formControlName="dateofhire">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="license-no">License No </label> <br>
+                        <input type="text" class="form-control" formControlName="licenseno" placeholder="Type License Number">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="license-expiry">License Ecpiry Date </label> <br>
+                        <input type="date" class="form-control" formControlName="licenseexpiry">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="last-medical">Last Medical </label> <br>
+                        <input type="date" class="form-control" formControlName="lastmedical">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="next-medical">Next Medical </label> <br>
+                        <input type="date" class="form-control" formControlName="nextmedical">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="passport-expiry">Passport Expiry </label> <br>
+                        <input type="date" class="form-control" formControlName="passportexpiry">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="fast-card-expiry">Fast Card Expiry </label> <br>
+                        <input type="date" class="form-control" formControlName="fastcardexpiry">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="hamzat-expiry">Hamzat Expiry </label> <br>
+                        <input type="date" class="form-control" formControlName="hamzatexpiry">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="termination-date">Termination Date </label> <br>
+                        <input type="date" class="form-control" formControlName="terminationdate">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="status">Status</label> <br>
+                        <input type="date" class="form-control" formControlName="status">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="tanker-andorsment">Tanker Endorsment </label> <br>
+                        <input type="date" class="form-control" formControlName="tankerandorsment">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="twic-number">TWIC Card Number </label> <br>
+                        <input type="date" class="form-control" formControlName="twicno">
+                    </div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <button type="button" class="btn btn-previous" (click)="basicInfoForm.reset()">Reset</button>
+
+                    <button type="button" class="btn btn-next m-2" (click)="addDriver()">Add Driver</button>
+
+                </div>
+            </div>
+        </form>
+        <!-- information form ends here -->
+
+    </div>
+</div>
